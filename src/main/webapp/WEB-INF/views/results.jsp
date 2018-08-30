@@ -8,8 +8,11 @@
 <title>Hotel Results</title>
 </head>
 
-<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css">
 
+<body>
+<main class="container">
+<p></p>
 <table class="table">
 			<thead>
 				<tr>
@@ -23,7 +26,6 @@
 					<td>${hotel.name}</td>
 					<td>${hotel.city}</td>
 					<td>$${hotel.pricePerNight}</td>
-					
 					
 				</tr>
 				</c:forEach>

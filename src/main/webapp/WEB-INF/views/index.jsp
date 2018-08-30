@@ -7,9 +7,11 @@
 <meta charset="UTF-8">
 <title>Hotel Search</title>
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css">
 <body>
-Let's find some hotels...
-
+<main class="container">
+<h2>Plan your getaway....</h2>
+<h3>Choose a city</h3>
 <form method="post">
 	<select id="city" name="city">
 	   <option value="NONE">--- Select ---</option>
@@ -17,7 +19,6 @@ Let's find some hotels...
 	   <option value="Honolulu">Honolulu</option>
 	   <option value="New York">New York</option>
 	</select> 
-
 	<button>submit</button>
 </form>
 </body>
